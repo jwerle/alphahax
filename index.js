@@ -25,7 +25,7 @@ var alpha = alphahax.alpha = {
 	, v: "(new Date(60000000000)).toUTCString().toLowerCase()[10]"
 	, w: "'w'"
 	, x: "'x'"
-	, y: "'y'"
+	, y: "Object.prototype.toString.call([])[12]"
 	, z: "'z'"
 };
 
