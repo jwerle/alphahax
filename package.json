@@ -1,0 +1,27 @@
+{
+  "name": "alphahax",
+  "version": "0.0.1",
+  "description": "Fun little hack for Javascript for generating alphabet letters",
+  "main": "index.js",
+  "scripts": {
+    "test": "make resr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jwerle/alphahax.git"
+  },
+  "keywords": [
+    "hacks",
+    "fun",
+    "javascript",
+    "alpha",
+    "words",
+    "letters",
+    "obfuscate",
+    ""
+  ],
+  "author": "Joseph Werle <joseph@werle.io>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "d3a68843171b09912b6f61f8e815485f40c348f5"
+}
