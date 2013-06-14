@@ -20,3 +20,8 @@ console.log(eval(iliketohaxstuff)); // i like to hax stuff
 var crazy = alphahax('it also accepts tons of other characters and stuff like !@#$%^& #@$%@% &^%#*&');
 console.log(crazy); // (''+void 0)[5]+(''+!!1)[0]+' '+(''+(+'.'))[1]+(typeof !!2)[3]+(typeof '')[0]+(''+{})[1]+' '+(''+(+'.'))[1]+'c'+'c'+(typeof !!1)[4]+'p'+(''+!!1)[0]+(typeof '')[0]+' '+(''+!!1)[0]+(''+{})[1]+(typeof !!3)[6]+(typeof '')[0]+' '+(''+{})[1]+(typeof Function())[0]+' '+(''+{})[1]+(''+!!1)[0]+'h'+(typeof !!1)[4]+(''+!!1)[1]+' '+'c'+'h'+(''+(+'.'))[1]+(''+!!1)[1]+(''+(+'.'))[1]+'c'+(''+!!1)[0]+(typeof !!1)[4]+(''+!!1)[1]+(typeof '')[0]+' '+(''+(+'.'))[1]+(typeof !!3)[6]+{}.toString.call(new Date).toLowerCase()[8]+' '+(typeof '')[0]+(''+!!1)[0]+(''+!!1)[2]+(typeof Function())[0]+(typeof Function())[0]+' '+(typeof !!2)[3]+(''+void 0)[5]+'k'+(typeof !!1)[4]+' '+'!'+'@'+'#'+'$'+'%'+'^'+'&'+' '+'#'+'@'+'$'+'%'+'@'+'%'+' '+'&'+'^'+'%'+'#'+'*'+'&'
 console.log(eval(crazy));  // it also accepts tons of other characters and stuff like !@#$%^& #@$%@% &^%#*&
+
+var uppercase = alphahax('Joseph Werle');
+console.log(uppercase);
+assert(eval(uppercase) === 'Joseph Werle');
+console.log(eval(uppercase));

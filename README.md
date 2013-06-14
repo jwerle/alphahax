@@ -26,6 +26,10 @@ var alphahax = require('alphahax');
 var joe = alphahax('joe'); // '\'j\'+(\'\'+{})[1]+(typeof !!1)[4]'
 eval(joe) // joe
 
+// it knows about uppercase letters
+var JosephWerle = alphahax('Joseph Werle');
+eval(JosephWerle); // Joseph Werle
+
 // it can handle spaces too for phrases
 var iliketohaxstuff = alphahax('i like to hax stuff'); // (''+void 0)[5]+' '+(typeof !!2)[3]+(''+void 0)[5]+'k'+(typeof !!1)[4]+' '+(''+!!1)[0]+(''+{})[1]+' '+'h'+(''+(+'.'))[1]+'x'+' '+(typeof '')[0]+(''+!!1)[0]+(''+!!1)[2]+(typeof Function())[0]+(typeof Function())[0]
 

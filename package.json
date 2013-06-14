@@ -1,6 +1,6 @@
 {
   "name": "alphahax",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fun little hack for Javascript for generating alphabet letters",
   "main": "index.js",
   "scripts": {

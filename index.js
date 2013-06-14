@@ -36,7 +36,9 @@ var codes = alphahax.codes = Object.keys(alpha).map(function (x) {
 
 function alphahax (word) {
 	var ret = [].map.call(word.split(''), function (l) {
-		return (/^[a-zA-Z]+$/).test(l) ? alpha[l] : "'"+ l +"'";
+		if (!(/^[a-zA-Z]+$/).test(l)) return "'"+ l +"'";
+		else if ((/[A-Z]+/g).test(l)) return "("+ alpha[l.toLowerCase()] + ").toUpperCase()";
+		else return alpha[l];
 	});
 	return ret.join('+');
 }
