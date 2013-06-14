@@ -1,19 +1,19 @@
 module.exports = alphahax;
 
 var alpha = alphahax.alpha = {
-		a: "(''+(+'.'))[1]"
+	a: "(''+(+'.'))[1]"
 	, b: "(typeof !!0)[0]"
-	, c: "'c'"
+	, c: "(typeof Function())[3]"
 	, d: "{}.toString.call(new Date).toLowerCase()[8]"
 	, e: "(typeof !!1)[4]"
 	, f: "(typeof Function())[0]"
-	, g: "'g'"
+	, g: "(typeof '')[5]"
 	, h: "'h'"
 	, i: "(''+void 0)[5]"
 	, j: "'j'"
 	, k: "'k'"
 	, l: "(typeof !!2)[3]"
-	, m: "'m'"
+	, m: "(new Date(507801600000).toString().toLowerCase()[0]"
 	, n: "(typeof !!3)[6]"
 	, o: "(''+{})[1]"
 	, p: "'p'"
